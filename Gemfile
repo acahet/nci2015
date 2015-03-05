@@ -38,5 +38,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Use debugger
 gem 'debugger', group: [:development, :test]
 
-gem 'puma',           '2.11.1'
+group :production do
+  gem 'pg',             '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+  gem 'puma',           '2.11.1'
+end
 
