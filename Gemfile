@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
@@ -28,7 +30,10 @@ gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+#create fake user for test purpose
+gem 'faker', '1.4.2'
+gem 'will_paginate',           '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use unicorn as the app server
 # gem 'unicorn'
 
